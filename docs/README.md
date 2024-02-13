@@ -40,7 +40,7 @@ Enter the operational parameters and press the execute button.
 |Locale|Language|Quality|
 | ----- | ----- | ----- |
 |(default)|English|AI Translation|
-|jp|Japanese|Native|
+|ja|Japanese|Native|
 |zh_TW|Traditional Chinese|AI Translation|
 |zh|Simplified Chinese|AI Translation|
 |ko|Korean|AI Translation|
