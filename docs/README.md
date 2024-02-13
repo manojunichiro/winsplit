@@ -46,8 +46,8 @@ Enter the operational parameters and press the execute button.
 |ko|Korean|AI Translation|
 
 ### Motivation for Development
-- The field staff responsible for multi-beam survey point cloud data generation generates about 100GB of data per day, and when asked about file splitting software that considers lines, it was difficult to set up a Windows-based Unix environment like WSL or MinGW due to lack of time and resources, and even the work team was mobilized, including business partners and in-house clerks, making it difficult to start PowerShell or write scripts.
-- When asked, I misunderstood that the `split` command had `-l` and `-b` options but no `-n`, so I created the software, but later I found out that there was `-n`, and unfortunately, I could not highlight the main feature of the software.
+- A field engineer responsible for multi-beam survey generates approximately 100GB of point cloud data daily. When seeking file splitting software that considers line-based segmentation, setting up a Windows-based Unix environment such as WSL or MinGW was challenging due to time and resource constraints. Additionally, even mobilizing the entire team, including business partners and in-house staff, made it difficult to initiate PowerShell or script writing.
+- When I received his inquiry, I initially misunderstood that the split command had options -l and -b but lacked -n, prompting me to start coding this software. However, I later discovered that -n indeed existed. Unfortunately, this oversight prevented me from highlighting the main feature of the software..
 
 ### Development Environment
 Visual Basic .NET / .NET 8 / Visual Studio 2022
