@@ -1,0 +1,7 @@
+.vs/
+winsplit/obj/
+winsplit/bin/
+winsplit_setup/Debug/
+winsplit_setup/Release/
+installers/*
+!installers/*.zip

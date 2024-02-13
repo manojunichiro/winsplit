@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "winsplit": {
+      "commandName": "Project",
+      "commandLineArgs": "--locale en"
+    }
+  }
+}
