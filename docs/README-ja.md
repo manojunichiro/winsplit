@@ -50,7 +50,7 @@
 - 照会を受けた時はsplitコマンドに`-l` `-b` オプションはあるが `-n`が無いと勘違いしてソフトを作成、しかし後日`-n`があると知り、主機能での特長が出せず残念なことに。。
 
 ## 開発環境
-Visual Basic .NET / .NET 8 / Visual Studio 2022
+Visual Basic .NET / .NET 8 / Visual Studio 2022 <br>
 まず winsplit.sln を開いてください。
 
 ## 協力/貢献

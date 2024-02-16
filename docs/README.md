@@ -50,7 +50,7 @@ Enter the operational parameters and press the execute button.
 - When I received his inquiry, I initially misunderstood that the split command had options -l and -b but lacked -n, prompting me to start coding this software. However, I later discovered that -n indeed existed. Unfortunately, this oversight prevented me from highlighting the main feature of the software..
 
 ## Development Environment
-Visual Basic .NET / .NET 8 / Visual Studio 2022
+Visual Basic .NET / .NET 8 / Visual Studio 2022 <br>
 Please open winsplit.sln first.
 
 ## Collaboration/Contribution
