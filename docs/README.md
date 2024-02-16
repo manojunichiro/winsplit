@@ -23,7 +23,7 @@ Enter the operational parameters and press the execute button.
 |Split Mode|Choose between lines, bytes, or file count|
 |Split Value|Enter the value for lines, bytes, or file count|
 
-### Error Messages
+## Error Messages
 |Message|Action|
 | ----- | ----- |    
 |Input file not found.|Specify the input file correctly.|
@@ -33,7 +33,7 @@ Enter the operational parameters and press the execute button.
 |Processing was aborted because an output file with the same name already exists.|Back up existing output files in the output folder.|
 |An unexpected error occurred. Please refer to the following file.|Check the contents of the input file. <br> If you are registering an issue, attach the error information file indicated in the dialog box.|
 
-### Multilingual Support
+## Multilingual Support
 - The display language will be selected based on the operating environment locale at startup.
 - You can also specify the language at runtime with command line arguments like `--locale en`,  `--locale zh_TW` or else.
 
@@ -45,14 +45,15 @@ Enter the operational parameters and press the execute button.
 |zh|Simplified Chinese|AI Translation|
 |ko|Korean|AI Translation|
 
-### Motivation for Development
-- A field engineer responsible for multi-beam survey generates approximately 100GB of point cloud data daily. When seeking file splitting software that considers line-based segmentation, setting up a Windows-based Unix environment such as WSL or MinGW was challenging due to time and resource constraints. Additionally, even mobilizing the entire team, including business partners and in-house staff, made it difficult to initiate PowerShell or script writing.
+## Motivation for Development
+- A field engineer responsible for multi-beam survey generates approximately 100GB of point cloud data daily. When seeking file splitting software that considers line-based segmentation, setting up a Windows-based Unix environment such as WSL or MinGW was challenging due to time and resource constraints. Additionally, even mobilizing the entire team, including business partners and in-house accountant, made it difficult to initiate PowerShell or script writing.
 - When I received his inquiry, I initially misunderstood that the split command had options -l and -b but lacked -n, prompting me to start coding this software. However, I later discovered that -n indeed existed. Unfortunately, this oversight prevented me from highlighting the main feature of the software..
 
-### Development Environment
+## Development Environment
 Visual Basic .NET / .NET 8 / Visual Studio 2022
+Please open winsplit.sln first.
 
-### Collaboration/Contribution
+## Collaboration/Contribution
 We welcome the following collaborations/Contribution.
 - Report of malfunctions
 - Feature requests, suggestions
@@ -63,5 +64,5 @@ We accept inquiries at the following.
 - Github: https://github.com/manojunichiro/winsplit
 - Email: support_winsplit AT garagekids.jp 
 
-### Acknowledgments
+## Acknowledgments
 KOYA.
